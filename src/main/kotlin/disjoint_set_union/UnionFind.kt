@@ -1,4 +1,4 @@
-package disjoint_union_set
+package disjoint_set_union
 
 class UnionFind<T> {
     private val id = HashMap<T, T>()
