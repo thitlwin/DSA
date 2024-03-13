@@ -22,5 +22,7 @@ fun main() {
             }
         }
     }
-    print(obj.middleNode(n1))
+    println(obj.middleNode(n1))
+    var ch = "abcd".toCharArray()
+    println(ch.toString())
 }
