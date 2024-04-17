@@ -1,22 +1,25 @@
 package sort.insertion_sort
 
-class InsertionSort {
-    fun sort(unsorted: ArrayList<Int>): List<Int> {
-        for (i in unsorted.indices) {
-            var current = i
-            while (current >0 && unsorted[current] < unsorted[current-1]) {
-                val temp = unsorted[current]
-                unsorted[current] = unsorted[current-1]
-                unsorted[current-1] = temp
-                current--
+import sort.swapAt
+
+fun <T: Comparable<T>> MutableList<T>.insertionSort(showPasses: Boolean = false) {
+    if (this.size < 2) return
+    for (current in 1 until this.size) {
+        for (shifting in current downTo 1) {
+            if (this[shifting] < this[shifting - 1]) {
+                this.swapAt(shifting, shifting-1)
+            } else{
+                break
             }
         }
-        return unsorted
+        if (showPasses) println(this)
     }
 }
 
 fun main() {
-    val obj = InsertionSort()
-    val sortedList = obj.sort(arrayListOf(0,9,0,2,4,8,5,1))
-    println(sortedList)
+//    val list = arrayListOf(9,4,10,3)
+    val list = arrayListOf(4,3,2,1,0)
+    println("Original: $list")
+    list.insertionSort(true)
+    println("Bubble sorted: $list")
 }
