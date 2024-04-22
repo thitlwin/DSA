@@ -1,6 +1,6 @@
-package sort.insertion_sort
+package sort.oN2.insertion_sort
 
-import sort.swapAt
+import sort.oN2.swapAt
 
 fun <T: Comparable<T>> MutableList<T>.insertionSort(showPasses: Boolean = false) {
     if (this.size < 2) return

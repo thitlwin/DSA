@@ -1,6 +1,6 @@
-package sort.selection_sort
+package sort.oN2.selection_sort
 
-import sort.swapAt
+import sort.oN2.swapAt
 
 fun <T: Comparable<T>> MutableList<T>.selectionSort(showPasses: Boolean = false) {
     if (this.size < 2) return

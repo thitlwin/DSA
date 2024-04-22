@@ -1,4 +1,4 @@
-package sort
+package sort.oN2
 
 fun <T> MutableList<T>.swapAt(first: Int, second: Int) {
     val aux = this[first]

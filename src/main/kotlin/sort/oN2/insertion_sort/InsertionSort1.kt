@@ -1,4 +1,4 @@
-package sort.insertion_sort
+package sort.oN2.insertion_sort
 
 class InsertionSort1 {
     fun sort(unsorted: ArrayList<Int>): List<Int> {

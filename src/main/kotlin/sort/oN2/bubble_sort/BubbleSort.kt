@@ -1,6 +1,6 @@
-package sort.bubble_sort
+package sort.oN2.bubble_sort
 
-import sort.swapAt
+import sort.oN2.swapAt
 
 fun <T: Comparable<T>> MutableList<T>.bubbleSort(showPasses: Boolean = false) {
     if (this.size < 2) return
