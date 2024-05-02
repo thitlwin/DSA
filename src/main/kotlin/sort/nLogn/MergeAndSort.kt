@@ -45,7 +45,9 @@ fun <T : Comparable<T>> merge(left: List<T>, right: List<T>): List<T> {
 
 fun main() {
 //    val list = listOf(7,2,6,3,9)
-    val list = listOf(9, 8, 7, 6, 5, 4)
+//    val list = listOf(9, 8, 7, 6, 5, 4)
+    val list = listOf(1,3,5,7,2,4,6)
+
     println("Original: $list")
     val result = list.mergeSort()
     println("Merge sorted: $result")
