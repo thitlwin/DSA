@@ -1,6 +1,6 @@
 package sort.oN2.insertion_sort
 
-class InsertionSort1 {
+class InsertionSortFromAlgo {
     fun sort(unsorted: ArrayList<Int>): List<Int> {
         for (i in unsorted.indices) {
             var current = i
@@ -16,7 +16,7 @@ class InsertionSort1 {
 }
 
 fun main() {
-    val obj = InsertionSort1()
+    val obj = InsertionSortFromAlgo()
 //    val sortedList = obj.sort(arrayListOf(0,9,0,2,4,8,5,1))
     val sortedList = obj.sort(arrayListOf(4,3,2,1,0))
     println(sortedList)
