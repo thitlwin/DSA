@@ -1,5 +1,6 @@
 package dfs.visible_node
 
+import dfs.Node
 import java.util.StringJoiner
 
 class SerializeDeserializeTree {
@@ -23,7 +24,7 @@ class SerializeDeserializeTree {
         val element = iterator.next()
         if (element == "x")
             return null
-        val node = Node(element.toInt(), null,null)
+        val node = Node(element.toInt())
         node.left = deserializeDFS(iterator)
         node.right = deserializeDFS(iterator)
         return node
@@ -32,9 +33,9 @@ class SerializeDeserializeTree {
 
 fun main() {
     val obj = SerializeDeserializeTree()
-    val node3 = Node(3, null, null)
-    val node2 = Node(2, null, null)
-    val node1 = Node(1, node2, node3)
+    val node3 = Node(3)
+    val node2 = Node(2)
+    val node1 = Node(1)
     val serializedStr = obj.serialize(node1)
     println(serializedStr)
     val deserializeTree = obj.deserialize(serializedStr)

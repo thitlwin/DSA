@@ -1,6 +1,8 @@
 package dfs.visible_node
 
+import dfs.Node
 import kotlin.math.max
+
 // Same as LeetCode Problem 1448. Count Good Nodes in Binary Tree
 class VisibleNodeCount {
     fun visibleTreeNode(root: Node<Int>): Int {
@@ -33,11 +35,19 @@ fun main() {
 //    val root = Node(-100, null, nodeMinus500)
 //    println(obj.visibleTreeNode(root)) // 2
 
-    val node5 = Node(5, null, null)
-    val node1_2 = Node(1, null, null)
-    val node4 = Node(4, node1_2, node5)
-    val node3 = Node(3, null, null)
-    val node1_1 = Node(1, left = node3, null)
-    val root = Node(3, left = node1_1, node4) //4
+    val node5 = Node(5)
+    val node1_2 = Node(1)
+    val node4 = Node(4).apply {
+        left = node1_2
+        right = node5
+    }
+    val node3 = Node(3)
+    val node1_1 = Node(1).apply {
+        left = node3
+    }
+    val root = Node(3).apply {
+        left = node1_1
+        right = node4
+    }
     println(obj.visibleTreeNode(root))
 }
