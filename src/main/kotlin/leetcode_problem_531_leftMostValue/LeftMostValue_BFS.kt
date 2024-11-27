@@ -1,6 +1,6 @@
 package leetcode_problem_531_leftMostValue
 
-import leetcode_problem_111_min_tree_depth.TreeNode
+import dfs.leetcode_problem_111_min_tree_depth.TreeNode
 
 class LeftMostValue_BFS {
     fun findBottomLeftValue(root: TreeNode?): Int {

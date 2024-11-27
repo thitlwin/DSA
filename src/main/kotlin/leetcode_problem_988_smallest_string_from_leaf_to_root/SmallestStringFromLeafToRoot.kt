@@ -2,7 +2,7 @@ package leetcode_problem_988_smallest_string_from_leaf_to_root
 
 import kotlin.text.StringBuilder
 
-class TreeNode(var `val`: Int) {
+ class TreeNode(var `val`: Int) {
     var left: TreeNode? = null
     var right: TreeNode? = null
 }

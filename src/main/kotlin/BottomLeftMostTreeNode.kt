@@ -1,5 +1,3 @@
-import leetcode_problem_111_min_tree_depth.TreeNode
-
 data class BTreeNode(val `val`: Int){
     var left: BTreeNode? = null
     var right: BTreeNode? = null

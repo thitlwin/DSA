@@ -103,6 +103,7 @@ fun main() {
 //    ) // 94878
 //    val res = obj.newspapersSplit(listOf(1,1,1,1,1,1), 1) // 6
 //    val res = obj.newspapersSplit(listOf(15,15,15,15), 4) // 15
-    val res = obj.newspapersSplit(listOf(1,2,4,7,8), 2) // 6
-    println(res)
+//    val res = obj.newspapersSplit(listOf(1,2,4,7,8), 2) // 6
+//    println(res)
+    println(obj.newspapersSplit(listOf(1,3,5,7,9,2,4,6), 4))
 }
