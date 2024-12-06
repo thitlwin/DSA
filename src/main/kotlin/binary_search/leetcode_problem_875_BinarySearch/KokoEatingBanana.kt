@@ -1,4 +1,4 @@
-package leetcode_problem_875_BinarySearch
+package binary_search.leetcode_problem_875_BinarySearch
 
 import kotlin.math.ceil
 
@@ -30,7 +30,8 @@ class KokoEatingBanana {
 
 fun main() {
     val obj = KokoEatingBanana()
-    println(obj.minEatingSpeed(intArrayOf(3,6,7,11), 8))
+//    println(obj.minEatingSpeed(intArrayOf(3,6,7,11), 8))
 //    println(obj.minEatingSpeed(intArrayOf(1000000000), 2))
+    println(obj.minEatingSpeed(intArrayOf(805306368,805306368,805306368), 1000000000))
 
 }
