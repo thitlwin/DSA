@@ -52,9 +52,18 @@ fun main() {
 //    }
 //    println(obj.validBst(node1)) // false
 
-    node2.apply {
-        left = node1
-        right = node3
+//    node2.apply {
+//        left = node1
+//        right = node3
+//    }
+//    println(obj.validBst(node2)) // true
+
+    val n3 = Node(4).apply {
+        left = Node(2).apply {
+            left = Node(1)
+            right = Node(3)
+        }
+        right = Node(5)
     }
-    println(obj.validBst(node2)) // true
+    println(obj.validBst(n3))
 }

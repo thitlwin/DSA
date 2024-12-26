@@ -19,7 +19,7 @@ class HeightBalancedTree {
         if (leftHeight == -1) return -1
         val rightHeight = height(root.right)
         if (rightHeight == -1) return -1
-        if (abs(leftHeight - rightHeight) > 1) return -1
+        if (abs(leftHeight - rightHeight) > 1) return -1 // This is the main requirement of the problem
         return 1 + maxOf(leftHeight, rightHeight)
     }
 }

@@ -9,14 +9,16 @@ class VisibleNodeCount {
         return dfs(root, Int.MIN_VALUE)
     }
 
-    private fun dfs(root: Node<Int>?, maxSoFar: Int): Int {
+    private fun dfs(root: Node<Int>?, max: Int): Int {
         if (root == null) return 0
         var total = 0
+        var maxSoFar = max
         if (root.`val` >= maxSoFar) {
             total++
+            maxSoFar = root.`val`
         }
-        total += dfs(root.left, max(root.`val`, maxSoFar))
-        total += dfs(root.right, max(root.`val`, maxSoFar))
+        total += dfs(root.left, maxSoFar)
+        total += dfs(root.right, maxSoFar)
         return total
     }
 }
@@ -35,19 +37,33 @@ fun main() {
 //    val root = Node(-100, null, nodeMinus500)
 //    println(obj.visibleTreeNode(root)) // 2
 
-    val node5 = Node(5)
-    val node1_2 = Node(1)
+//    val node5 = Node(5)
+//    val node1_2 = Node(1)
+//    val node4 = Node(4).apply {
+//        left = node1_2
+//        right = node5
+//    }
+//    val node3 = Node(3)
+//    val node1_1 = Node(1).apply {
+//        left = node3
+//    }
+//    val root = Node(3).apply {
+//        left = node1_1
+//        right = node4
+//    }
+
+    val root = Node(5)
     val node4 = Node(4).apply {
-        left = node1_2
-        right = node5
+        left = Node(3)
+        right = Node(7)
     }
-    val node3 = Node(3)
-    val node1_1 = Node(1).apply {
-        left = node3
+    val node8 = Node(8).apply {
+        left = Node(10)
+        right = Node(2)
     }
-    val root = Node(3).apply {
-        left = node1_1
-        right = node4
+    root.apply {
+        left = node4
+        right = node8
     }
     println(obj.visibleTreeNode(root))
 }
