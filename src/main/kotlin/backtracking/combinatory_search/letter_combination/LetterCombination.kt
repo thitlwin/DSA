@@ -1,4 +1,4 @@
-package backtracking.combinatory_search
+package backtracking.combinatory_search.letter_combination
 
 import java.util.ArrayList
 

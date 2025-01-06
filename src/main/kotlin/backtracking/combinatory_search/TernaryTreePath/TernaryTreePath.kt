@@ -1,4 +1,6 @@
-package backtracking.combinatory_search
+package backtracking.combinatory_search.TernaryTreePath
+
+import backtracking.combinatory_search.Node
 
 class TernaryTreePath {
     fun ternaryTreePaths(root: Node<Int>): List<String> {

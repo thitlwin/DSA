@@ -1,4 +1,4 @@
-package backtracking.pruning
+package backtracking.pruning.palindrome
 
 class FindAllPalindromeFromString {
     fun partition(inputStr: String): List<List<String>> {

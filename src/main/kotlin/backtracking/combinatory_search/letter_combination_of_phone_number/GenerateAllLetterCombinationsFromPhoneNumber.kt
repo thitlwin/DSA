@@ -1,4 +1,4 @@
-package backtracking.combinatory_search
+package backtracking.combinatory_search.letter_combination_of_phone_number
 //Given a phone number that contains digits 2-9, find all possible letter combinations the phone number could translate to.
 //Input:
 //"56"

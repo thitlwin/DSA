@@ -1,4 +1,4 @@
-package backtracking.pruning
+package backtracking.pruning.leet_22_generate_valid_parentheses
 
 class GenerateAllValidParentheses {
     fun generateParentheses(n: Int): List<String> {
