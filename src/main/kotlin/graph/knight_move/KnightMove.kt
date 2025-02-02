@@ -1,4 +1,6 @@
-package graph
+package graph.knight_move
+
+import graph.Coordinate
 
 class KnightMove {
     private fun getNeighbors(coord: Coordinate): List<Coordinate> {

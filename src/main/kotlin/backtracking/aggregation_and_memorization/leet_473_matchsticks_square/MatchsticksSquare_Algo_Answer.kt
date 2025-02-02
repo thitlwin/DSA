@@ -28,16 +28,14 @@ class MatchsticksSquare_Algo_Answer {
 
     private fun dfs(matchsticks: IntArray, sides: IntArray, start: Int, sideLength: Int): Boolean {
         if (start == matchsticks.size) {
-            return sides[0] == sideLength &&
-                    sides[1] == sideLength &&
-                    sides[2] == sideLength &&
-                    sides[3] == sideLength
+            return sides[0] == sides[1] && sides[1] == sides[2] && sides[2] == sides[3]
         }
         var isValid = false
         for (i in 0..3) {
             if (sides[i] + matchsticks[start] <= sideLength) {
                 sides[i] += matchsticks[start]
                 isValid = isValid || dfs(matchsticks, sides, start + 1, sideLength)
+                sides[i] -= matchsticks[start]
             }
         }
         return isValid

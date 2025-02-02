@@ -1,4 +1,6 @@
-package graph
+package graph.wall_and_gate
+
+import graph.Coordinate
 
 class WallAndGate {
     private val directions = listOf(
