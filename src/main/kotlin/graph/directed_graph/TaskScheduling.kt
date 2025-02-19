@@ -35,7 +35,7 @@ class TaskScheduling {
         return if (graph.size == result.size) result else null
     }
 
-    private fun <T> findInDegree(graph: java.util.HashMap<T, MutableList<T>>): MutableMap<T, Int> {
+    private fun <T> findInDegree(graph: HashMap<T, MutableList<T>>): MutableMap<T, Int> {
         val inDegree = HashMap<T, Int>()
         graph.keys.forEach { node ->
             inDegree[node] = 0
