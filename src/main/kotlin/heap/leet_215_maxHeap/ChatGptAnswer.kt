@@ -1,4 +1,4 @@
-package leetcode_problem_215_maxHeap
+package heap.leet_215_maxHeap
 
 import java.util.*
 // Incorrect - the function returns the largest element, not kth largest

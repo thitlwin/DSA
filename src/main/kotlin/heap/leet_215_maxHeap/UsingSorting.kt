@@ -1,4 +1,4 @@
-package leetcode_problem_215_maxHeap
+package heap.leet_215_maxHeap
 
 class UsingSorting {
     fun findKthLargest(nums: IntArray, k: Int): Int {

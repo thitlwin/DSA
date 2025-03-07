@@ -1,4 +1,4 @@
-package leetcode_problem_378
+package heap.leetcode_problem_378
 
 import java.util.PriorityQueue
 
