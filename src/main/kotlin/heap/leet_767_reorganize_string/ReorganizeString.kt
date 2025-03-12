@@ -37,8 +37,10 @@ class ReorganizeString {
 fun main() {
     val obj = ReorganizeString()
 //    println(obj.reorganizeString("aab"))
-    println(obj.reorganizeString("aaab"))
+//    println(obj.reorganizeString("aaab"))
 //    println(obj.reorganizeString("ssaab"))
 //    println(obj.reorganizeString("cccddeeee"))
+//    println(obj.reorganizeString("aabcc"))
+    println(obj.reorganizeString("aaaaabcc"))
 
 }
