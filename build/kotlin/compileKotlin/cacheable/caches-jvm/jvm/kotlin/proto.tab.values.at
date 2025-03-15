@@ -1,8 +1,4 @@
-ChatGptAnswerKtKLargestElementKt!KLargestElement_2_using_minHeapKtKLargestElement_BestAnswer1KtUsingSortingKt
-6
- heap.leet_23_merge_k_sorted_listMergeKSortedListKt
-J
-heap.leet_264_ugly_numberUglyNumber_BruteForceKtUglyNumber_MinHeapKt
+64_ugly_numberUglyNumber_BruteForceKtUglyNumber_MinHeapKt
 -
 heap.leet_295_median_streamMedianStreamKt
 5
@@ -250,15 +246,18 @@ C
 ternary_treeTernaryTreePathKt
 Ì
 two_pointersFindAllAnagramsKt"FlexibleSizeSlidingWindowLongestKt#FlexibleSizeSlidingWindowShortestKtGroupAllOneKtLeastConsecutiveCardsKtLongestSubstringKt+LongestSubstringWithoutRepeatingCharacterKtMiddleOfLinkedListKtMinLengthOfSubArraySumKtMinLengthOfSubArraySum_OnLognKtMoveZerosKtPrefixSumKtPrefixSumTotalKtRemoveDuplicateKtSlidingWindowKtSlidingWindowLongestKtSlidingWindowShortestKtSubArraySumTotalKtValidPalindromeKt
+*
+two_pointers.leet_167_2sum_II	TwoSum2Kt
 
 ugly_numberUglyNumberKt
 
-utilStringHelperKt" *     talKtRemoveDuplicateKtSlidingWindowKtSlidingWindowLongestKtSlidingWindowShortestKtSubArraySumTotalKtValidPalindromeKt
+utilStringHelperKt" *        tSubstringWithoutRepeatingCharacterKtMiddleOfLinkedListKtMinLengthOfSubArraySumKtMinLengthOfSubArraySum_OnLognKtMoveZerosKtPrefixSumKtPrefixSumTotalKtRemoveDuplicateKtSlidingWindowKtSlidingWindowLongestKtSlidingWindowShortestKtSubArraySumTotalKtValidPalindromeKt
+*
+two_pointers.leet_167_2sum_II	TwoSum2Kt
 
 ugly_numberUglyNumberKt
 
-utilStringHelperKt" *     estDivisibleSubsetKtLongestSubsequenceKtMaximumSquareKt
-4
+utilStringHelperKt" *     4
 backtrackingLeet_47_permutation_IIKt
 ThreeSumKt
 S
