@@ -1,4 +1,6 @@
-64_ugly_numberUglyNumber_BruteForceKtUglyNumber_MinHeapKt
+stKt
+J
+heap.leet_264_ugly_numberUglyNumber_BruteForceKtUglyNumber_MinHeapKt
 -
 heap.leet_295_median_streamMedianStreamKt
 5
@@ -246,26 +248,22 @@ C
 ternary_treeTernaryTreePathKt
 Ì
 two_pointersFindAllAnagramsKt"FlexibleSizeSlidingWindowLongestKt#FlexibleSizeSlidingWindowShortestKtGroupAllOneKtLeastConsecutiveCardsKtLongestSubstringKt+LongestSubstringWithoutRepeatingCharacterKtMiddleOfLinkedListKtMinLengthOfSubArraySumKtMinLengthOfSubArraySum_OnLognKtMoveZerosKtPrefixSumKtPrefixSumTotalKtRemoveDuplicateKtSlidingWindowKtSlidingWindowLongestKtSlidingWindowShortestKtSubArraySumTotalKtValidPalindromeKt
-*
-two_pointers.leet_167_2sum_II	TwoSum2Kt
+@
+two_pointers.leet_167_2sum_IITwoSum_II_2_pointers_ApproachKt
+K
+ two_pointers.leet_283_move_zeros'MovingZeros_Without_2Pointer_ApproachKt
 
 ugly_numberUglyNumberKt
 
-utilStringHelperKt" *        tSubstringWithoutRepeatingCharacterKtMiddleOfLinkedListKtMinLengthOfSubArraySumKtMinLengthOfSubArraySum_OnLognKtMoveZerosKtPrefixSumKtPrefixSumTotalKtRemoveDuplicateKtSlidingWindowKtSlidingWindowLongestKtSlidingWindowShortestKtSubArraySumTotalKtValidPalindromeKt
-*
-two_pointers.leet_167_2sum_II	TwoSum2Kt
+utilStringHelperKt" *     AllOneKtLeastConsecutiveCardsKtLongestSubstringKt+LongestSubstringWithoutRepeatingCharacterKtMiddleOfLinkedListKtMinLengthOfSubArraySumKtMinLengthOfSubArraySum_OnLognKtMoveZerosKtPrefixSumKtPrefixSumTotalKtRemoveDuplicateKtSlidingWindowKtSlidingWindowLongestKtSlidingWindowShortestKtSubArraySumTotalKtValidPalindromeKt
+@
+two_pointers.leet_167_2sum_IITwoSum_II_2_pointers_ApproachKt
+K
+ two_pointers.leet_283_move_zeros'MovingZeros_Without_2Pointer_ApproachKt
 
 ugly_numberUglyNumberKt
 
-utilStringHelperKt" *     4
-backtrackingLeet_47_permutation_IIKt
-ThreeSumKt
-S
-5backtracking.aggregation_and_memorization.decode_waysDecodeWay2KtDecodeWaysKt
-}
-Ebacktracking.aggregation_and_memorization.leet_473_matchsticks_squareMatchsticksSquareKtMatchsticksSquare_Algo_AnswerKt
-
-3backtracking.aggregation_and_memorization.min_coins$MinCoinToMakeChange2_MinusApproachKt"MinCoinToMakeChange2_SumApproachKt
+utilStringHelperKt" *     acking.aggregation_and_memorization.min_coins$MinCoinToMakeChange2_MinusApproachKt"MinCoinToMakeChange2_SumApproachKt
 [
 4backtracking.aggregation_and_memorization.word_breakWordBreak2KtWordBreak2_withMemoKt
 X
