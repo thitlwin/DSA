@@ -1,4 +1,4 @@
-package leetcode_problem_643
+package two_pointers.leet_643_max_avg_subarray
 
 import kotlin.math.max
 

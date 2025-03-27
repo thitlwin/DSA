@@ -1,4 +1,4 @@
-package leetcode_problem_42_trapping_rain_water
+package DP.leetcode_problem_42_trapping_rain_water
 
 import kotlin.math.max
 import kotlin.math.min

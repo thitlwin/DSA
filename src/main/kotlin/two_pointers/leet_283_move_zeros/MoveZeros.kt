@@ -1,4 +1,4 @@
-package two_pointers
+package two_pointers.leet_283_move_zeros
 
 class MoveZeros {
     fun moveZeroes(nums: IntArray): IntArray {
