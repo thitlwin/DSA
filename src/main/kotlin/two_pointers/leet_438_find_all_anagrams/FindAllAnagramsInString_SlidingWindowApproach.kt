@@ -6,7 +6,7 @@ class FindAllAnagramsInString_SlidingWindowApproach {
         if (s.length < p.length) return result
         val sArr = IntArray(26)
         val pArr = IntArray(26)
-        for (i in 0 until p.length) {
+        for (i in p.indices) {
             sArr[s[i] - 'a']++
             pArr[p[i] - 'a']++
         }
