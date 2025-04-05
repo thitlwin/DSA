@@ -1,4 +1,4 @@
-package two_pointers
+package two_pointers.prefix_sum
 
 class PrefixSumTotal {
     fun subarraySumTotal(arr: List<Int>, target: Int): Int {
